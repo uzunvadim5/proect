@@ -1,0 +1,245 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основные стили для body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Стили для навигации */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Баннер */
+.banner {
+    color: #524e4e;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Стили для раздела с товарами */
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.product .price {
+    font-size: 18px;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.product button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #2980b9;
+}
+
+/* Стили для корзины */
+.cart {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart table th,
+.cart table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart table th {
+    background-color: #f4f4f4;
+}
+
+.cart table td input {
+    width: 50px;
+    padding: 5px;
+}
+
+.cart button {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart button:hover {
+    background-color: #2ecc71;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.feature {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.feature h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.cta {
+    text-align: center;
+    margin: 40px 0;
+}
+.cta a {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.cta a:hover {
+    background-color: #45a049;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
